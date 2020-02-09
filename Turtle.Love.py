@@ -9,9 +9,11 @@ def round():
 
 turtle.speed(0)
 turtle.color('black', 'black')
+turtle.begin_fill()
 turtle.left(140)
 turtle.forward(111.65)
 round()
 turtle.left(120)
 round()
 turtle.forward(111.65)
+turtle.end_fill()
